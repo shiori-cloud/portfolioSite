@@ -72,6 +72,22 @@
     <div class="background">
       <img class="line" src="images/line.svg" alt="装飾" />
     </div>
+     <script>
+      // ハンバーガーメニュー
+      const hamburger = document.getElementById('hamburger-menu');
+      const menu = document.getElementById('menu');
+      const menuLinks = menu.querySelectorAll('a');
+
+      hamburger.addEventListener('click', () => {
+        menu.classList.toggle('is-open');
+      });
+
+      menuLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          menu.classList.remove('is-open');
+        });
+    </script>
   </body>
 </html>
+
 
