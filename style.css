@@ -537,14 +537,14 @@ footer .copy-right {
   position: static;
 }
 
-#bottompage .image-container {
+#bottompage .works.image-container {
   width: 80%;
   margin: 0 auto;
   overflow: scroll;
   max-height: 80vh;
 }
 
-#bottompage .image-container img {
+#bottompage .works.image-container img {
   width: 100%;
   display: block;
 }
