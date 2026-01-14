@@ -679,7 +679,7 @@ footer .copy-right {
   }
 
   .header-container nav a::before {
-    position: relative;
+    /* position: relative; */
   }
 
   .header-container nav a:hover::before {
@@ -859,3 +859,4 @@ footer .copy-right {
     width: fit-content;
   }
 }
+
