@@ -380,7 +380,6 @@ header .logo a {
 .about-container .text-container {
   width: 443px;
   margin: 0 auto;
-  height: 635px;
   display: flex;
   gap: 62px;
   justify-content: center;
@@ -594,11 +593,19 @@ footer .copy-right {
     height: 100%;
     width: auto;
   }
+
+  .about-container .text-container h3 {
+    margin-top: 80px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   html {
     font-size: 12px;
+  }
+
+  h2::after {
+    bottom: 6px;
   }
 
   /* ヘッダー */
@@ -676,10 +683,6 @@ footer .copy-right {
     text-decoration: none;
     padding-left: 1.5rem;
     position: relative;
-  }
-
-  .header-container nav a::before {
-    /* position: relative; */
   }
 
   .header-container nav a:hover::before {
@@ -798,7 +801,6 @@ footer .copy-right {
   /* about */
   .about-container {
     flex-direction: column;
-    gap: 40px;
     padding: 0 0 0 0;
     margin-bottom: 100px;
     border-bottom: none;
@@ -818,10 +820,6 @@ footer .copy-right {
   .about-container .text-container {
     width: auto;
     margin: 0 5%;
-    height: 435px;
-  }
-  .about-container .text-container h3 {
-    margin-top: 80px;
   }
 
   /* contact */
@@ -859,4 +857,3 @@ footer .copy-right {
     width: fit-content;
   }
 }
-
